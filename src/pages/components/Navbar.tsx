@@ -133,8 +133,8 @@ const Nav: React.FC<NavProps> = ({ searchQuery, setSearchQuery }) => {
             <Link className="text-nowrap" href={"/"}>
               New & Featured
             </Link>
-            <Link href={"/"}>Men</Link>
-            <Link href={"/"}>Women</Link>
+            <Link href={"/Product"}>Men</Link>
+            <Link href={"/Product"}>Women</Link>
             <Link className="text-nowrap" href={"/Product"}>
               Latest Products
             </Link>
